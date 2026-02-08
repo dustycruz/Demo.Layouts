@@ -44,6 +44,11 @@
                     <Button Content="Maintenance"></Button>
                     <Button Content="Announcements"></Button>
                     <Button Content="Survey"></Button>
+                    <Label Content="Academics Module"  Foreground="White" FontWeight="Bold"></Label>
+                    <Button Content="Admissions"></Button>
+                    <Button Content="Enlisment"></Button>
+                    <Button Content="Query"></Button>
+                    <Button Content="Utilities"></Button>
                 </StackPanel>
             </Grid>
         </Grid>
@@ -62,7 +67,7 @@
         </Grid>
         <Grid>
             <Grid.Background>
-                <ImageBrush ImageSource="/uac_logo.png" Opacity="0.1" Stretch="Uniform"/>
+                <ImageBrush ImageSource="/uac_logo.png" Opacity="0.04" Stretch="Uniform"/>
             </Grid.Background>
 
             <Grid.ColumnDefinitions>
@@ -103,12 +108,15 @@
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
+                    
+                    
+                    
                 </Grid.RowDefinitions>
                 <Image Source="/calendar-249.png" Margin="0" Grid.Column="0"></Image>
                 <Label Content="Last 3 days Application" FontWeight="Bold" Grid.Column="2" VerticalAlignment="Center" ></Label>
                 <StackPanel Grid.Row="1" Grid.Column="1">
-                    <Label Content="117" FontWeight="Bold" VerticalAlignment="Center"></Label>
-                    <Label Content="Total applicants" HorizontalAlignment="Left" ></Label>
+                    <Label Content="0" FontWeight="Bold" VerticalAlignment="Center"></Label>
+                    <Label Content="Preperatory Department" HorizontalAlignment="Left" ></Label>
                 </StackPanel>
             </Grid>
 
@@ -122,6 +130,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
+                    
                 </Grid.RowDefinitions>
                 <Image Source="/33308.png" Margin="0" Grid.Column="0"></Image>
                 <Label Content="For your interviews" FontWeight="Bold" Grid.Column="2" VerticalAlignment="Center"></Label>
@@ -132,20 +141,129 @@
                     <Label Content="For your Interviewes" HorizontalAlignment="Left" Background="Red" Width="188"></Label>
                 </StackPanel>
             </Grid>
-            <Grid Grid.Row="1">
+            <Grid Height="50" Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"></RowDefinition>
                     <RowDefinition></RowDefinition>
+
                 </Grid.RowDefinitions>
-                <Label Content="hello" HorizontalAlignment="Left"></Label>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Row="0" Grid.Column="2">
+                    <Label Content="2" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="2">
+                    <Label Content="New Applications" ></Label>
+                </StackPanel>
             </Grid>
 
-            <Grid Grid.Column="1" Grid.Row="1">
+            <Grid Height="50" Grid.Column="1" Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
-                <Label Content="Hi" HorizontalAlignment="Left"></Label>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Row="0" Grid.Column="2">
+                    <Label Content="7" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="1">
+                    <Label Content="Basic Education"></Label>
+                </StackPanel>
+            </Grid>
+
+            <Grid Height="50" Grid.Row="2" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="2">
+                    <Label Content="17" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="1">
+                    <Label Content="Completed Requirements"></Label>
+                </StackPanel>
+            </Grid>
+
+            <Grid Height="50" Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="2">
+                    <Label Content="1" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="1">
+                    <Label Content="Senior High School"></Label>
+                </StackPanel>
+            </Grid>
+
+            <Grid Height="50" Grid.Row="3" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="2">
+                    <Label Content="3" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="1">
+                    <Label Content="Applicants Scheduled Today"></Label>
+                </StackPanel>
+            </Grid>
+
+            <Grid Height="50" Grid.Row="3" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="2">
+                    <Label Content="0" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="1">
+                    <Label Content="Higher Education"></Label>
+                </StackPanel>
+            </Grid>
+
+            <Grid Height="50" Grid.Row="1" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="2">
+                    <Label Content="0" FontWeight="Bold"></Label>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="1">
+                    <Label Content="No Show"></Label>
+                </StackPanel>
             </Grid>
         </Grid>
     </DockPanel>
